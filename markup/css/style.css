@@ -100,6 +100,7 @@ a {
 
 .backgroundimg {
 position: relative;
+background-color: #e5e5e5;
 }
 
  .conteiner3{
@@ -127,6 +128,46 @@ position: relative;
     padding: 8px 65px;
 }
 
+.sec3{
+    background-color: #E5E5E5;
+}
+
+.sec3 h2{
+    margin-top: 0;
+}
+
+.card {
+    margin: 0 -15px;
+}
+
+.card li{
+    display: inline-block;
+    list-style-type: none;
+    max-width: 270px;
+    padding: 0 15px ;
+    background-color: #e5e5e5;
+}
+
+.cardbox{
+    max-width: 255px;
+    text-align: center;
+    padding: 25px 65px;
+    background-color: #FFFFFF;
+}
+
+.card .phonebutton {
+    background-color: #F13C6E;
+    color: #FFFFFF;
+}
+
+.cardbox p{
+    margin: 0;
+}
+
+.cardbox h3 {
+    margin: 0;
+    padding: 20px 0;
+}
 
 
 
