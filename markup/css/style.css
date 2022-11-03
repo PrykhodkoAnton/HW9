@@ -15,9 +15,10 @@ header {
 }
 
 .conteiner{
-    max-width: 1110px;
+    max-width: 1145px;
     padding: 0 15px;
     margin: 0 auto;
+    width: 100%;
 }
 
 
@@ -137,13 +138,17 @@ background-color: #e5e5e5;
 }
 
 .card {
-    margin: 0 -15px;
+    margin: 0 -20px;
+    padding-bottom: 100px;
+}
+
+.card img {
+    margin: 0 35px;
 }
 
 .card li{
     display: inline-block;
     list-style-type: none;
-    max-width: 270px;
     padding: 0 15px ;
     background-color: #e5e5e5;
 }
@@ -151,13 +156,14 @@ background-color: #e5e5e5;
 .cardbox{
     max-width: 255px;
     text-align: center;
-    padding: 25px 65px;
+    padding: 25px 30px;
     background-color: #FFFFFF;
 }
 
 .card .phonebutton {
     background-color: #F13C6E;
     color: #FFFFFF;
+    margin: 0 0 0 -10px;
 }
 
 .cardbox p{
@@ -166,9 +172,65 @@ background-color: #e5e5e5;
 
 .cardbox h3 {
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 0 30px;
 }
 
+.pinkcard2,
+.pinkcard1 {
+    display: inline-block;
+    max-width: 540px;
+    padding: 35px 45px 35px 40px;
+    background-color: #F13C6E;
+    color: #FFFFFF;
+}
 
+.textpinkcard {
+    display: inline-block;
+    max-width: 250px;
+}
 
+.spanpinkcard {
+    display: inline-block;
+    max-width: 129px;
+    padding: 25px 0;
+}
 
+.imgpinkcard {
+    float: right;
+    padding: 10px 0 0 90px;
+}
+
+.pinkcard2 h3,
+.pinkcard1 h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.pinkcard1 .phonebutton {
+    max-width: 225px;
+    display: block;
+}
+
+.pinkcard2 {
+    float: right;
+}
+
+.pinkcard2 .phonebutton {
+    display: block;
+}
+
+.pinkcard2 .imgpinkcard {
+    padding: 30px 0 0 96px;
+}
+
+.pinkcard2 .phonebutton {
+    max-width: 170px;
+    padding: 9px 46px;
+    background-color: #F13C6E;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.impulsbox {
+    padding: 100px 0;
+}
