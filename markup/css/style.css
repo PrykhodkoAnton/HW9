@@ -63,7 +63,7 @@ a {
 }
 
 .logo{
-    padding: 20px 0 ;
+    padding: 20px 10px ;
     float: left;
 }
 
@@ -100,8 +100,8 @@ a {
 
 
 .backgroundimg {
-position: relative;
-background-color: #e5e5e5;
+    position: relative;
+    background-color: #e5e5e5;
 }
 
  .conteiner3{
@@ -134,7 +134,8 @@ background-color: #e5e5e5;
 }
 
 .sec3 h2{
-    margin-top: 0;
+    margin: 0;
+    padding: 80px 0 38px;
 }
 
 .card {
@@ -231,6 +232,93 @@ background-color: #e5e5e5;
     border: 2px solid #FFFFFF;
 }
 
+.impulse {
+    padding: 100px 0 0;
+
+}
+
 .impulsbox {
-    padding: 100px 0;
+    width: 100%;
+    border: 2px solid #E5E5E5;
+    padding: 0 14px;
+}   
+
+.impimg {
+    border: 1px solid #EFEFEF;
+    display: inline-block;
+    padding: 35px 65px;
+    background-color: #FFFFFF;
+    margin: -4px;
+}
+
+
+.pc {
+    margin: 0;
+    padding: 60px 156px 30px 0;
+    border-bottom: 1px solid #EFEFEF;
+    max-width: 255px;
+}
+
+.menu3 {
+    padding: 25px 173px 60px 0;
+}
+
+.menu3 li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.menu3 li>a {
+    color: #828282;
+}
+
+.pcconteiner {
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0 -5px;
+}
+
+.pcc {
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.sn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #F13C6E;
+    display: inline-block;
+}
+
+.youtube {
+    padding: 12.25px 11.25px 11.25px 9.25px;
+}
+
+.facebook {
+    padding: 11.25px 2.25px 11.25px 14.25px; 
+}
+
+.inst {
+    padding: 9.25px 11.25px 11.25px 9.25px;;
+}
+
+.small {
+    padding: 37px 10px;
+}
+
+footer {
+    background-color: #E5E5E5;
+    padding: 25px 0;
+}
+
+.f {
+    float: left;
+    color: #828282;
+}
+
+.pp {
+    float: right;
+    color: #828282;
 }
