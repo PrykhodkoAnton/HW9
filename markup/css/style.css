@@ -1,7 +1,9 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    max-width: 1920px;
+    /* max-width: 1920px; */
+    /* width: 100%; */
+    margin: 0 auto;
 }
 
 #wrapper {
@@ -84,6 +86,7 @@ a {
     text-align: center;
     padding: 9px 51px;
     max-width: 170px;
+    display: inline-block
 }
 
 .sec2 {
@@ -98,10 +101,19 @@ a {
     width: 100%;
 }
 
+.sec4 {
+    background-color: #F13C6E;
+}
 
 .backgroundimg {
     position: relative;
-    background-color: #e5e5e5;
+    background-color: #F13C6E;
+    max-width: 1920px;
+}
+
+.fon {
+    display: block;
+    margin: 0 auto;
 }
 
  .conteiner3{
@@ -321,4 +333,48 @@ footer {
 .pp {
     float: right;
     color: #828282;
+}
+
+a:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.phonebutton:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: #F13C6E;
+    color: #FFFFFF;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+li:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.phone>a:hover {
+    color: #F13C6E;
+}
+
+.pinkcard1>.textpinkcard>.phonebutton:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: none ;
+    background-color: #FFFFFF;
+    color: #000000;
 }
