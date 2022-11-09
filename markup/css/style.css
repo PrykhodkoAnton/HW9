@@ -44,6 +44,10 @@ ul{
     padding: 0;
 }
 
+li {
+    transition: 0.5s;
+}
+
 li a {
     color: #333333;
 }
@@ -67,6 +71,7 @@ a {
 .logo{
     padding: 20px 10px ;
     float: left;
+    transition: 0.5s;
 }
 
 .phone {
@@ -77,6 +82,7 @@ a {
 .phone a {
     padding: 0 40px 0 0;
     color: #000000;
+    transition: 0.5s;
 }
 
 .phonebutton {
@@ -86,7 +92,8 @@ a {
     text-align: center;
     padding: 9px 51px;
     max-width: 170px;
-    display: inline-block
+    display: inline-block;
+    transition: 0.5s;
 }
 
 .sec2 {
@@ -261,6 +268,7 @@ a {
     padding: 35px 65px;
     background-color: #FFFFFF;
     margin: -4px;
+    transition: 0.5s;
 }
 
 
@@ -302,6 +310,7 @@ a {
     border-radius: 50%;
     border: 2px solid #F13C6E;
     display: inline-block;
+    transition: 0.5s;
 }
 
 .youtube {
@@ -377,4 +386,5 @@ li:hover{
     transform: none ;
     background-color: #FFFFFF;
     color: #000000;
+    cursor: text;
 }
